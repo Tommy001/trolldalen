@@ -1,5 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
+#user-login-form {
+    text-align: left !important;
+}
 body.sidebar-first, body.sidebar-second {
     min-width: 511px;
 }
