@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+body.sidebar-first, body.sidebar-second {
+    min-width: 511px;
+}
+ul.secondary-menu {
+  top:-48px !important;
+  right:60px;
+  }
+@media screen and (min-width:0px) and (max-width:729px) {
+#wrapper #container .sidebar {
+    width: 125px;
+	}
+#branding, #branding a:link, #branding a:visited {
+  font-size: 1.25em;
+  }
+.form-item-name,.form-item-pass,.form-actions {
+    display: inline-block !important;
+  }
+}
+
+
+div.profile{
+	width:200px;
+	float:left;
+}
+
+.field-name-field-profilbild img{
+	max-width:60px;
+}
+
+.gata, .gatunr, .bokstav {
+	display:inline-block;
+	margin:0;
+	font-weight: bold;
+}
+.field-name-field-nummer, .views-field-field-nummer{
+	display:inline-block;
+}
+td.gatunr,td.bokstav{
+	padding:0 !important;
+}
+.view-grouping-header{
+	font-weight:bold;
+	font-size: 14px;
+	display:inline;
+}
+.views-column{
+	margin:5px 5px 0 0;
+	background:#EDF5FA;
+	padding:10px;
+	width:200px;
+	display:inline-block;
+	vertical-align: text-top;
+	height:auto;
+}
+.titel{
+	font-weight:bold;
+	font-size:16px;
+	margin:20px 0 0 0;
+}
+.content{
+	width:100%;
+}
