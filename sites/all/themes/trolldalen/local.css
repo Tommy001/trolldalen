@@ -7,6 +7,10 @@ ul.secondary-menu {
   top:-48px !important;
   right:60px;
   }
+  .mejl{
+    display:inline;
+  }
+
 @media screen and (min-width:0px) and (max-width:729px) {
 #wrapper #container .sidebar {
     width: 125px;
